@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace LineComparsionNonStatic
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to Line Comparison Computation Program");
+
+            LineComparsion obj = new LineComparsion();
+            obj.LineLength();
+
+        }
+    }
+}
