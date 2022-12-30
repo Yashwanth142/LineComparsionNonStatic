@@ -7,7 +7,8 @@
             Console.WriteLine("Welcome to Line Comparison Computation Program");
 
             LineComparsion obj = new LineComparsion();
-            obj.LineLength();
+            //obj.LineLength();
+            obj.LineEqual();
 
         }
     }
