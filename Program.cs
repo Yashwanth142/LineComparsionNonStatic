@@ -8,7 +8,8 @@
 
             LineComparsion obj = new LineComparsion();
             //obj.LineLength();
-            obj.LineEqual();
+            //obj.LineEqual();
+            obj.Linecompare();
 
         }
     }
